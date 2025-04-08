@@ -1,17 +1,10 @@
 ---
 import Layout from '../layouts/MainLayout.astro';
-import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
-import Services from '../components/Services.astro';
-import Pricing from '../components/Pricing.astro';
-import Contact from '../components/Contact.astro';
-import content from '../data/content.json';
+
+import hero from '../data/hero.json';
 ---
 
 <Layout>
-  <Navbar links={content.navbar.links} />
-  <Hero title={content.hero.title} subtitle={content.hero.subtitle} image={content.hero.image} />
-  <Services services={content.services.items} />
-  <Pricing plans={content.pricing.plans} />
-  <Contact title={content.contact.title} email={content.contact.email} phone={content.contact.phone} />
+  <Hero title={hero.title} subtitle={hero.subtitle} image={hero.image} />
 </Layout>
