@@ -2,7 +2,7 @@ stackbitVersion: ~0.6.0
 contentSources:
   - id: content
     type: files
-    filePath: src/data/{model}.json
+    filePath: src/data/hero.json
 models:
   hero:
     type: object
