@@ -1,0 +1,31 @@
+{
+    "navbar": {
+      "links": [
+        { "text": "Home", "url": "/" },
+        { "text": "Services", "url": "/services" },
+        { "text": "Contact", "url": "/contact" }
+      ]
+    },
+    "hero": {
+      "title": "Welcome to Our Test Site",
+      "subtitle": "A demo for Netlify Create with Astro",
+      "image": "/images/hero-image.jpg"
+    },
+    "services": {
+      "items": [
+        { "title": "Development", "description": "Custom web solutions" },
+        { "title": "Design", "description": "Beautiful UI/UX" }
+      ]
+    },
+    "pricing": {
+      "plans": [
+        { "name": "Basic", "price": "$49", "features": ["Core Features", "Support"] },
+        { "name": "Pro", "price": "$99", "features": ["All Features", "Priority Support"] }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "test@example.com",
+      "phone": "+1-555-123-4567"
+    }
+  }

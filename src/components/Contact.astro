@@ -1,0 +1,24 @@
+---
+// src/components/Contact.astro
+const { title, email, phone } = Astro.props as { title: string; email: string; phone: string };
+---
+
+<section class="contact">
+  <h2>{title}</h2>
+  <p>Email: {email}</p>
+  <p>Phone: {phone}</p>
+</section>
+
+<style>
+  .contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  h2 {
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+</style>
