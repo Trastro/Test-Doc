@@ -1,6 +1,9 @@
 stackbitVersion: ~0.6.0
-ssg: astro
-dataDir: src/data
+contentSources:
+  - type: files
+    name: content
+    path: src/data
+    fileMatch: content.json
 models:
   navbar:
     type: object
@@ -81,12 +84,3 @@ models:
       - name: phone
         type: string
         label: Phone
-pages:
-  - path: src/pages/index.astro
-    label: Home Page
-    models:
-      - navbar
-      - hero
-      - services
-      - pricing
-      - contact
