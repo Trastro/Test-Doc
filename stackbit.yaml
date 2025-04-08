@@ -1,0 +1,19 @@
+stackbitVersion: ~0.6.0
+contentSources:
+  - id: content
+    type: files
+    filePath: src/data/{model}.json
+models:
+  hero:
+    type: object
+    label: Hero Section
+    fields:
+      - name: title
+        type: string
+        label: Title
+      - name: subtitle
+        type: string
+        label: Subtitle
+      - name: image
+        type: image
+        label: Hero Image
