@@ -1,9 +1,8 @@
 stackbitVersion: ~0.6.0
 contentSources:
-  - type: files
-    name: content
-    path: src/data
-    fileMatch: content.json
+  - id: content
+    type: files
+    filePath: src/data/{navbar,hero,services,pricing,contact}.json
 models:
   navbar:
     type: object
